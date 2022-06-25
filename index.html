@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1024px)" href="assets/css/mobile.css" />
+    <link rel="stylesheet" media="screen and (min-width: 1025px)" href="assets/css/desktop.css" />
+    <link rel="stylesheet" mnedia="screen and (hover: hover)" href="assets/css/hover.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <div class="form-section">
+        <div class="form-info">
+          <h1>Get a quote</h1>
+          <p>Fill up the form and our team will get back to you within 24 hours.</p>
+        </div>
+        <div class="form-info">
+          <a href="#" class="contact">
+            <i class="fas fa-phone-alt"></i>
+            <span>+0123 4567 8910</span>
+          </a>
+          <a href="#" class="contact">
+            <i class="fas fa-envelope"></i>
+            <span>example@gmail.com</span>
+          </a>
+          <a href="#" class="contact">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Duarte St, 7</span>
+          </a>
+        </div>
+        <div class="form-info social-media">
+          <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+          <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="form-section">
+        <form class="form">
+          <div class="input-area">
+            <label for="name" class="form__label">Your Name</label>
+            <div class="input-container">
+              <i class="far fa-user" id="user-icon"></i>
+              <input type="text" class="form__input" id="name" />
+            </div>
+          </div>
+          <div class="input-area">
+            <label for="mail" class="form__label">Email</label>
+            <div class="input-container">
+              <i class="far fa-envelope" id="mail-icon"></i>
+              <input type="email" class="form__input" id="mail" />
+            </div>
+          </div>
+          <div class="input-area">
+            <label for="message" class="form__label">Message</label>
+            <textarea name="message" id="message" class="input-container" placeholder="Message"></textarea>
+          </div>
+
+          <button class="btn" type="button" value="Send Email">Send Message</button>
+        </form>
+      </div>
+    </div>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script src="../app.js"></script>
+  </body>
+</html>
